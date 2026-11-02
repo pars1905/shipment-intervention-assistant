@@ -6,6 +6,21 @@ A standalone Python prototype that joins mock order, warehouse, and carrier reco
 
 From the repository root, run `python3 demo.py`, `python3 -m unittest discover -v`, and `python3 evaluate.py`. No packages or credentials are required.
 
+## Isolated environment
+
+In GitHub, select **Code → Codespaces → Create codespace on main**, then run `python3 demo.py` in the terminal. The included `.devcontainer/devcontainer.json` selects Python 3.12. Each repository gets its own separate codespace.
+
+With Docker installed locally, run:
+
+```bash
+docker build -t shipment-assistant .
+docker run --rm shipment-assistant
+docker run --rm shipment-assistant python evaluate.py
+docker run --rm shipment-assistant python -m unittest discover -v
+```
+
+The container runs a CLI demo; it does not publish a web service.
+
 To try an optional model-written reviewer explanation, set `OPENAI_API_KEY` and `OPENAI_MODEL` in your shell and run `python3 demo.py --ai`. The model receives structured recommendations and cannot create tasks. This API path has been tested with a mocked response, not a live key. API usage may incur charges.
 
 ## Design
