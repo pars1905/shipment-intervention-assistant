@@ -39,7 +39,9 @@ def recommend(orders, warehouse, carrier, now):
                 score += 2
                 evidence.append("Carrier exception")
             age = (now - _parse(scan["scanned_at"])).total_seconds() / 3600
-            if age >= 24:
+            if age < 0:
+                evidence.append("Carrier scan timestamp is in the future")
+            elif age >= 24:
                 score += 1
                 evidence.append("No carrier scan for at least 24 hours")
         results.append({"order_id": order_id, "score": score,
@@ -48,7 +50,7 @@ def recommend(orders, warehouse, carrier, now):
 
 
 def create_task(recommendation, approved, open_tasks):
-    if not approved:
+    if approved is not True:
         raise PermissionError("Operator approval required")
     if not recommendation["intervene"]:
         raise ValueError("Only flagged shipments can receive a task")

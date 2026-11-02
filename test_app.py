@@ -25,6 +25,21 @@ class LogisticsTests(unittest.TestCase):
         with self.assertRaises(ValueError):
             recommend([{"id": "A"}, {"id": "A"}], {}, {}, self.now)
 
+    def test_only_boolean_true_counts_as_approval(self):
+        item = recommend([{"id": "A", "eta": "2026-01-10T11:00:00Z"}], {}, {}, self.now)[0]
+        tasks = {}
+        for value in ("false", "no", 1):
+            with self.subTest(value=value):
+                with self.assertRaises(PermissionError):
+                    create_task(item, value, tasks)
+        self.assertFalse(tasks)
+
+    def test_future_scan_is_reported_not_treated_as_fresh(self):
+        order = {"id": "A", "eta": "2026-01-13T12:00:00Z"}
+        scan = {"A": {"status": "normal", "scanned_at": "2026-01-13T12:00:00Z"}}
+        item = recommend([order], {"A": {"status": "ready"}}, scan, self.now)[0]
+        self.assertIn("Carrier scan timestamp is in the future", item["evidence"])
+
 
 if __name__ == "__main__":
     unittest.main()
