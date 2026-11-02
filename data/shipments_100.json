@@ -1,0 +1,2102 @@
+[
+  {
+    "id": "S-001",
+    "scenario": "overdue",
+    "now": "2026-10-02T12:00:00Z",
+    "order": {
+      "id": "S-001",
+      "eta": "2026-10-02T10:00:00Z"
+    },
+    "warehouse": {
+      "S-001": {
+        "status": "ready"
+      }
+    },
+    "carrier": {
+      "S-001": {
+        "status": "normal",
+        "scanned_at": "2026-10-02T09:00:00Z"
+      }
+    },
+    "late": true
+  },
+  {
+    "id": "S-002",
+    "scenario": "overdue",
+    "now": "2026-10-03T12:00:00Z",
+    "order": {
+      "id": "S-002",
+      "eta": "2026-10-03T09:00:00Z"
+    },
+    "warehouse": {
+      "S-002": {
+        "status": "ready"
+      }
+    },
+    "carrier": {
+      "S-002": {
+        "status": "normal",
+        "scanned_at": "2026-10-03T08:00:00Z"
+      }
+    },
+    "late": true
+  },
+  {
+    "id": "S-003",
+    "scenario": "overdue",
+    "now": "2026-10-04T12:00:00Z",
+    "order": {
+      "id": "S-003",
+      "eta": "2026-10-04T08:00:00Z"
+    },
+    "warehouse": {
+      "S-003": {
+        "status": "ready"
+      }
+    },
+    "carrier": {
+      "S-003": {
+        "status": "normal",
+        "scanned_at": "2026-10-04T07:00:00Z"
+      }
+    },
+    "late": true
+  },
+  {
+    "id": "S-004",
+    "scenario": "overdue",
+    "now": "2026-10-05T12:00:00Z",
+    "order": {
+      "id": "S-004",
+      "eta": "2026-10-05T10:00:00Z"
+    },
+    "warehouse": {
+      "S-004": {
+        "status": "ready"
+      }
+    },
+    "carrier": {
+      "S-004": {
+        "status": "normal",
+        "scanned_at": "2026-10-05T06:00:00Z"
+      }
+    },
+    "late": true
+  },
+  {
+    "id": "S-005",
+    "scenario": "overdue",
+    "now": "2026-10-06T12:00:00Z",
+    "order": {
+      "id": "S-005",
+      "eta": "2026-10-06T09:00:00Z"
+    },
+    "warehouse": {
+      "S-005": {
+        "status": "ready"
+      }
+    },
+    "carrier": {
+      "S-005": {
+        "status": "normal",
+        "scanned_at": "2026-10-06T09:00:00Z"
+      }
+    },
+    "late": true
+  },
+  {
+    "id": "S-006",
+    "scenario": "overdue",
+    "now": "2026-10-07T12:00:00Z",
+    "order": {
+      "id": "S-006",
+      "eta": "2026-10-07T08:00:00Z"
+    },
+    "warehouse": {
+      "S-006": {
+        "status": "ready"
+      }
+    },
+    "carrier": {
+      "S-006": {
+        "status": "normal",
+        "scanned_at": "2026-10-07T08:00:00Z"
+      }
+    },
+    "late": true
+  },
+  {
+    "id": "S-007",
+    "scenario": "overdue",
+    "now": "2026-10-08T12:00:00Z",
+    "order": {
+      "id": "S-007",
+      "eta": "2026-10-08T10:00:00Z"
+    },
+    "warehouse": {
+      "S-007": {
+        "status": "ready"
+      }
+    },
+    "carrier": {
+      "S-007": {
+        "status": "normal",
+        "scanned_at": "2026-10-08T07:00:00Z"
+      }
+    },
+    "late": true
+  },
+  {
+    "id": "S-008",
+    "scenario": "overdue",
+    "now": "2026-10-09T12:00:00Z",
+    "order": {
+      "id": "S-008",
+      "eta": "2026-10-09T09:00:00Z"
+    },
+    "warehouse": {
+      "S-008": {
+        "status": "ready"
+      }
+    },
+    "carrier": {
+      "S-008": {
+        "status": "normal",
+        "scanned_at": "2026-10-09T06:00:00Z"
+      }
+    },
+    "late": true
+  },
+  {
+    "id": "S-009",
+    "scenario": "overdue",
+    "now": "2026-10-10T12:00:00Z",
+    "order": {
+      "id": "S-009",
+      "eta": "2026-10-10T08:00:00Z"
+    },
+    "warehouse": {
+      "S-009": {
+        "status": "ready"
+      }
+    },
+    "carrier": {
+      "S-009": {
+        "status": "normal",
+        "scanned_at": "2026-10-10T09:00:00Z"
+      }
+    },
+    "late": true
+  },
+  {
+    "id": "S-010",
+    "scenario": "overdue",
+    "now": "2026-10-11T12:00:00Z",
+    "order": {
+      "id": "S-010",
+      "eta": "2026-10-11T10:00:00Z"
+    },
+    "warehouse": {
+      "S-010": {
+        "status": "ready"
+      }
+    },
+    "carrier": {
+      "S-010": {
+        "status": "normal",
+        "scanned_at": "2026-10-11T08:00:00Z"
+      }
+    },
+    "late": true
+  },
+  {
+    "id": "S-011",
+    "scenario": "overdue",
+    "now": "2026-10-12T12:00:00Z",
+    "order": {
+      "id": "S-011",
+      "eta": "2026-10-12T09:00:00Z"
+    },
+    "warehouse": {
+      "S-011": {
+        "status": "ready"
+      }
+    },
+    "carrier": {
+      "S-011": {
+        "status": "normal",
+        "scanned_at": "2026-10-12T07:00:00Z"
+      }
+    },
+    "late": true
+  },
+  {
+    "id": "S-012",
+    "scenario": "overdue",
+    "now": "2026-10-13T12:00:00Z",
+    "order": {
+      "id": "S-012",
+      "eta": "2026-10-13T08:00:00Z"
+    },
+    "warehouse": {
+      "S-012": {
+        "status": "ready"
+      }
+    },
+    "carrier": {
+      "S-012": {
+        "status": "normal",
+        "scanned_at": "2026-10-13T06:00:00Z"
+      }
+    },
+    "late": true
+  },
+  {
+    "id": "S-013",
+    "scenario": "overdue",
+    "now": "2026-10-14T12:00:00Z",
+    "order": {
+      "id": "S-013",
+      "eta": "2026-10-14T10:00:00Z"
+    },
+    "warehouse": {
+      "S-013": {
+        "status": "ready"
+      }
+    },
+    "carrier": {
+      "S-013": {
+        "status": "normal",
+        "scanned_at": "2026-10-14T09:00:00Z"
+      }
+    },
+    "late": true
+  },
+  {
+    "id": "S-014",
+    "scenario": "overdue",
+    "now": "2026-10-15T12:00:00Z",
+    "order": {
+      "id": "S-014",
+      "eta": "2026-10-15T09:00:00Z"
+    },
+    "warehouse": {
+      "S-014": {
+        "status": "ready"
+      }
+    },
+    "carrier": {
+      "S-014": {
+        "status": "normal",
+        "scanned_at": "2026-10-15T08:00:00Z"
+      }
+    },
+    "late": true
+  },
+  {
+    "id": "S-015",
+    "scenario": "overdue",
+    "now": "2026-10-16T12:00:00Z",
+    "order": {
+      "id": "S-015",
+      "eta": "2026-10-16T08:00:00Z"
+    },
+    "warehouse": {
+      "S-015": {
+        "status": "ready"
+      }
+    },
+    "carrier": {
+      "S-015": {
+        "status": "normal",
+        "scanned_at": "2026-10-16T07:00:00Z"
+      }
+    },
+    "late": true
+  },
+  {
+    "id": "S-016",
+    "scenario": "overdue",
+    "now": "2026-10-17T12:00:00Z",
+    "order": {
+      "id": "S-016",
+      "eta": "2026-10-17T10:00:00Z"
+    },
+    "warehouse": {
+      "S-016": {
+        "status": "ready"
+      }
+    },
+    "carrier": {
+      "S-016": {
+        "status": "normal",
+        "scanned_at": "2026-10-17T06:00:00Z"
+      }
+    },
+    "late": true
+  },
+  {
+    "id": "S-017",
+    "scenario": "overdue",
+    "now": "2026-10-18T12:00:00Z",
+    "order": {
+      "id": "S-017",
+      "eta": "2026-10-18T09:00:00Z"
+    },
+    "warehouse": {
+      "S-017": {
+        "status": "ready"
+      }
+    },
+    "carrier": {
+      "S-017": {
+        "status": "normal",
+        "scanned_at": "2026-10-18T09:00:00Z"
+      }
+    },
+    "late": true
+  },
+  {
+    "id": "S-018",
+    "scenario": "overdue",
+    "now": "2026-10-19T12:00:00Z",
+    "order": {
+      "id": "S-018",
+      "eta": "2026-10-19T08:00:00Z"
+    },
+    "warehouse": {
+      "S-018": {
+        "status": "ready"
+      }
+    },
+    "carrier": {
+      "S-018": {
+        "status": "normal",
+        "scanned_at": "2026-10-19T08:00:00Z"
+      }
+    },
+    "late": true
+  },
+  {
+    "id": "S-019",
+    "scenario": "overdue",
+    "now": "2026-10-20T12:00:00Z",
+    "order": {
+      "id": "S-019",
+      "eta": "2026-10-20T10:00:00Z"
+    },
+    "warehouse": {
+      "S-019": {
+        "status": "ready"
+      }
+    },
+    "carrier": {
+      "S-019": {
+        "status": "normal",
+        "scanned_at": "2026-10-20T07:00:00Z"
+      }
+    },
+    "late": true
+  },
+  {
+    "id": "S-020",
+    "scenario": "overdue",
+    "now": "2026-10-21T12:00:00Z",
+    "order": {
+      "id": "S-020",
+      "eta": "2026-10-21T09:00:00Z"
+    },
+    "warehouse": {
+      "S-020": {
+        "status": "ready"
+      }
+    },
+    "carrier": {
+      "S-020": {
+        "status": "normal",
+        "scanned_at": "2026-10-21T06:00:00Z"
+      }
+    },
+    "late": true
+  },
+  {
+    "id": "S-021",
+    "scenario": "overdue",
+    "now": "2026-10-22T12:00:00Z",
+    "order": {
+      "id": "S-021",
+      "eta": "2026-10-22T08:00:00Z"
+    },
+    "warehouse": {
+      "S-021": {
+        "status": "ready"
+      }
+    },
+    "carrier": {
+      "S-021": {
+        "status": "normal",
+        "scanned_at": "2026-10-22T09:00:00Z"
+      }
+    },
+    "late": true
+  },
+  {
+    "id": "S-022",
+    "scenario": "overdue",
+    "now": "2026-10-23T12:00:00Z",
+    "order": {
+      "id": "S-022",
+      "eta": "2026-10-23T10:00:00Z"
+    },
+    "warehouse": {
+      "S-022": {
+        "status": "ready"
+      }
+    },
+    "carrier": {
+      "S-022": {
+        "status": "normal",
+        "scanned_at": "2026-10-23T08:00:00Z"
+      }
+    },
+    "late": true
+  },
+  {
+    "id": "S-023",
+    "scenario": "overdue",
+    "now": "2026-10-24T12:00:00Z",
+    "order": {
+      "id": "S-023",
+      "eta": "2026-10-24T09:00:00Z"
+    },
+    "warehouse": {
+      "S-023": {
+        "status": "ready"
+      }
+    },
+    "carrier": {
+      "S-023": {
+        "status": "normal",
+        "scanned_at": "2026-10-24T07:00:00Z"
+      }
+    },
+    "late": true
+  },
+  {
+    "id": "S-024",
+    "scenario": "overdue",
+    "now": "2026-10-25T12:00:00Z",
+    "order": {
+      "id": "S-024",
+      "eta": "2026-10-25T08:00:00Z"
+    },
+    "warehouse": {
+      "S-024": {
+        "status": "ready"
+      }
+    },
+    "carrier": {
+      "S-024": {
+        "status": "normal",
+        "scanned_at": "2026-10-25T06:00:00Z"
+      }
+    },
+    "late": true
+  },
+  {
+    "id": "S-025",
+    "scenario": "overdue",
+    "now": "2026-10-26T12:00:00Z",
+    "order": {
+      "id": "S-025",
+      "eta": "2026-10-26T10:00:00Z"
+    },
+    "warehouse": {
+      "S-025": {
+        "status": "ready"
+      }
+    },
+    "carrier": {
+      "S-025": {
+        "status": "normal",
+        "scanned_at": "2026-10-26T09:00:00Z"
+      }
+    },
+    "late": true
+  },
+  {
+    "id": "S-026",
+    "scenario": "warehouse_delay",
+    "now": "2026-10-27T12:00:00Z",
+    "order": {
+      "id": "S-026",
+      "eta": "2026-10-28T00:00:00Z"
+    },
+    "warehouse": {
+      "S-026": {
+        "status": "delayed"
+      }
+    },
+    "carrier": {
+      "S-026": {
+        "status": "normal",
+        "scanned_at": "2026-10-27T09:00:00Z"
+      }
+    },
+    "late": false
+  },
+  {
+    "id": "S-027",
+    "scenario": "warehouse_delay",
+    "now": "2026-10-28T12:00:00Z",
+    "order": {
+      "id": "S-027",
+      "eta": "2026-10-29T01:00:00Z"
+    },
+    "warehouse": {
+      "S-027": {
+        "status": "delayed"
+      }
+    },
+    "carrier": {
+      "S-027": {
+        "status": "normal",
+        "scanned_at": "2026-10-28T08:00:00Z"
+      }
+    },
+    "late": false
+  },
+  {
+    "id": "S-028",
+    "scenario": "warehouse_delay",
+    "now": "2026-10-29T12:00:00Z",
+    "order": {
+      "id": "S-028",
+      "eta": "2026-10-30T02:00:00Z"
+    },
+    "warehouse": {
+      "S-028": {
+        "status": "delayed"
+      }
+    },
+    "carrier": {
+      "S-028": {
+        "status": "normal",
+        "scanned_at": "2026-10-29T07:00:00Z"
+      }
+    },
+    "late": false
+  },
+  {
+    "id": "S-029",
+    "scenario": "warehouse_delay",
+    "now": "2026-10-30T12:00:00Z",
+    "order": {
+      "id": "S-029",
+      "eta": "2026-10-31T00:00:00Z"
+    },
+    "warehouse": {
+      "S-029": {
+        "status": "delayed"
+      }
+    },
+    "carrier": {
+      "S-029": {
+        "status": "normal",
+        "scanned_at": "2026-10-30T06:00:00Z"
+      }
+    },
+    "late": false
+  },
+  {
+    "id": "S-030",
+    "scenario": "warehouse_delay",
+    "now": "2026-10-31T12:00:00Z",
+    "order": {
+      "id": "S-030",
+      "eta": "2026-11-01T01:00:00Z"
+    },
+    "warehouse": {
+      "S-030": {
+        "status": "delayed"
+      }
+    },
+    "carrier": {
+      "S-030": {
+        "status": "normal",
+        "scanned_at": "2026-10-31T09:00:00Z"
+      }
+    },
+    "late": false
+  },
+  {
+    "id": "S-031",
+    "scenario": "warehouse_delay",
+    "now": "2026-11-01T12:00:00Z",
+    "order": {
+      "id": "S-031",
+      "eta": "2026-11-02T02:00:00Z"
+    },
+    "warehouse": {
+      "S-031": {
+        "status": "delayed"
+      }
+    },
+    "carrier": {
+      "S-031": {
+        "status": "normal",
+        "scanned_at": "2026-11-01T08:00:00Z"
+      }
+    },
+    "late": true
+  },
+  {
+    "id": "S-032",
+    "scenario": "warehouse_delay",
+    "now": "2026-11-02T12:00:00Z",
+    "order": {
+      "id": "S-032",
+      "eta": "2026-11-03T00:00:00Z"
+    },
+    "warehouse": {
+      "S-032": {
+        "status": "delayed"
+      }
+    },
+    "carrier": {
+      "S-032": {
+        "status": "normal",
+        "scanned_at": "2026-11-02T07:00:00Z"
+      }
+    },
+    "late": true
+  },
+  {
+    "id": "S-033",
+    "scenario": "warehouse_delay",
+    "now": "2026-11-03T12:00:00Z",
+    "order": {
+      "id": "S-033",
+      "eta": "2026-11-04T01:00:00Z"
+    },
+    "warehouse": {
+      "S-033": {
+        "status": "delayed"
+      }
+    },
+    "carrier": {
+      "S-033": {
+        "status": "normal",
+        "scanned_at": "2026-11-03T06:00:00Z"
+      }
+    },
+    "late": true
+  },
+  {
+    "id": "S-034",
+    "scenario": "warehouse_delay",
+    "now": "2026-11-04T12:00:00Z",
+    "order": {
+      "id": "S-034",
+      "eta": "2026-11-05T02:00:00Z"
+    },
+    "warehouse": {
+      "S-034": {
+        "status": "delayed"
+      }
+    },
+    "carrier": {
+      "S-034": {
+        "status": "normal",
+        "scanned_at": "2026-11-04T09:00:00Z"
+      }
+    },
+    "late": true
+  },
+  {
+    "id": "S-035",
+    "scenario": "warehouse_delay",
+    "now": "2026-11-05T12:00:00Z",
+    "order": {
+      "id": "S-035",
+      "eta": "2026-11-06T00:00:00Z"
+    },
+    "warehouse": {
+      "S-035": {
+        "status": "delayed"
+      }
+    },
+    "carrier": {
+      "S-035": {
+        "status": "normal",
+        "scanned_at": "2026-11-05T08:00:00Z"
+      }
+    },
+    "late": true
+  },
+  {
+    "id": "S-036",
+    "scenario": "warehouse_delay",
+    "now": "2026-11-06T12:00:00Z",
+    "order": {
+      "id": "S-036",
+      "eta": "2026-11-07T01:00:00Z"
+    },
+    "warehouse": {
+      "S-036": {
+        "status": "delayed"
+      }
+    },
+    "carrier": {
+      "S-036": {
+        "status": "normal",
+        "scanned_at": "2026-11-06T07:00:00Z"
+      }
+    },
+    "late": true
+  },
+  {
+    "id": "S-037",
+    "scenario": "warehouse_delay",
+    "now": "2026-11-07T12:00:00Z",
+    "order": {
+      "id": "S-037",
+      "eta": "2026-11-08T02:00:00Z"
+    },
+    "warehouse": {
+      "S-037": {
+        "status": "delayed"
+      }
+    },
+    "carrier": {
+      "S-037": {
+        "status": "normal",
+        "scanned_at": "2026-11-07T06:00:00Z"
+      }
+    },
+    "late": true
+  },
+  {
+    "id": "S-038",
+    "scenario": "warehouse_delay",
+    "now": "2026-11-08T12:00:00Z",
+    "order": {
+      "id": "S-038",
+      "eta": "2026-11-09T00:00:00Z"
+    },
+    "warehouse": {
+      "S-038": {
+        "status": "delayed"
+      }
+    },
+    "carrier": {
+      "S-038": {
+        "status": "normal",
+        "scanned_at": "2026-11-08T09:00:00Z"
+      }
+    },
+    "late": true
+  },
+  {
+    "id": "S-039",
+    "scenario": "warehouse_delay",
+    "now": "2026-11-09T12:00:00Z",
+    "order": {
+      "id": "S-039",
+      "eta": "2026-11-10T01:00:00Z"
+    },
+    "warehouse": {
+      "S-039": {
+        "status": "delayed"
+      }
+    },
+    "carrier": {
+      "S-039": {
+        "status": "normal",
+        "scanned_at": "2026-11-09T08:00:00Z"
+      }
+    },
+    "late": true
+  },
+  {
+    "id": "S-040",
+    "scenario": "warehouse_delay",
+    "now": "2026-11-10T12:00:00Z",
+    "order": {
+      "id": "S-040",
+      "eta": "2026-11-11T02:00:00Z"
+    },
+    "warehouse": {
+      "S-040": {
+        "status": "delayed"
+      }
+    },
+    "carrier": {
+      "S-040": {
+        "status": "normal",
+        "scanned_at": "2026-11-10T07:00:00Z"
+      }
+    },
+    "late": true
+  },
+  {
+    "id": "S-041",
+    "scenario": "warehouse_delay",
+    "now": "2026-11-11T12:00:00Z",
+    "order": {
+      "id": "S-041",
+      "eta": "2026-11-12T00:00:00Z"
+    },
+    "warehouse": {
+      "S-041": {
+        "status": "delayed"
+      }
+    },
+    "carrier": {
+      "S-041": {
+        "status": "normal",
+        "scanned_at": "2026-11-11T06:00:00Z"
+      }
+    },
+    "late": true
+  },
+  {
+    "id": "S-042",
+    "scenario": "warehouse_delay",
+    "now": "2026-11-12T12:00:00Z",
+    "order": {
+      "id": "S-042",
+      "eta": "2026-11-13T01:00:00Z"
+    },
+    "warehouse": {
+      "S-042": {
+        "status": "delayed"
+      }
+    },
+    "carrier": {
+      "S-042": {
+        "status": "normal",
+        "scanned_at": "2026-11-12T09:00:00Z"
+      }
+    },
+    "late": true
+  },
+  {
+    "id": "S-043",
+    "scenario": "warehouse_delay",
+    "now": "2026-11-13T12:00:00Z",
+    "order": {
+      "id": "S-043",
+      "eta": "2026-11-14T02:00:00Z"
+    },
+    "warehouse": {
+      "S-043": {
+        "status": "delayed"
+      }
+    },
+    "carrier": {
+      "S-043": {
+        "status": "normal",
+        "scanned_at": "2026-11-13T08:00:00Z"
+      }
+    },
+    "late": true
+  },
+  {
+    "id": "S-044",
+    "scenario": "warehouse_delay",
+    "now": "2026-11-14T12:00:00Z",
+    "order": {
+      "id": "S-044",
+      "eta": "2026-11-15T00:00:00Z"
+    },
+    "warehouse": {
+      "S-044": {
+        "status": "delayed"
+      }
+    },
+    "carrier": {
+      "S-044": {
+        "status": "normal",
+        "scanned_at": "2026-11-14T07:00:00Z"
+      }
+    },
+    "late": true
+  },
+  {
+    "id": "S-045",
+    "scenario": "warehouse_delay",
+    "now": "2026-11-15T12:00:00Z",
+    "order": {
+      "id": "S-045",
+      "eta": "2026-11-16T01:00:00Z"
+    },
+    "warehouse": {
+      "S-045": {
+        "status": "delayed"
+      }
+    },
+    "carrier": {
+      "S-045": {
+        "status": "normal",
+        "scanned_at": "2026-11-15T06:00:00Z"
+      }
+    },
+    "late": true
+  },
+  {
+    "id": "S-046",
+    "scenario": "warehouse_delay",
+    "now": "2026-11-16T12:00:00Z",
+    "order": {
+      "id": "S-046",
+      "eta": "2026-11-17T02:00:00Z"
+    },
+    "warehouse": {
+      "S-046": {
+        "status": "delayed"
+      }
+    },
+    "carrier": {
+      "S-046": {
+        "status": "normal",
+        "scanned_at": "2026-11-16T09:00:00Z"
+      }
+    },
+    "late": true
+  },
+  {
+    "id": "S-047",
+    "scenario": "warehouse_delay",
+    "now": "2026-11-17T12:00:00Z",
+    "order": {
+      "id": "S-047",
+      "eta": "2026-11-18T00:00:00Z"
+    },
+    "warehouse": {
+      "S-047": {
+        "status": "delayed"
+      }
+    },
+    "carrier": {
+      "S-047": {
+        "status": "normal",
+        "scanned_at": "2026-11-17T08:00:00Z"
+      }
+    },
+    "late": true
+  },
+  {
+    "id": "S-048",
+    "scenario": "warehouse_delay",
+    "now": "2026-11-18T12:00:00Z",
+    "order": {
+      "id": "S-048",
+      "eta": "2026-11-19T01:00:00Z"
+    },
+    "warehouse": {
+      "S-048": {
+        "status": "delayed"
+      }
+    },
+    "carrier": {
+      "S-048": {
+        "status": "normal",
+        "scanned_at": "2026-11-18T07:00:00Z"
+      }
+    },
+    "late": true
+  },
+  {
+    "id": "S-049",
+    "scenario": "warehouse_delay",
+    "now": "2026-11-19T12:00:00Z",
+    "order": {
+      "id": "S-049",
+      "eta": "2026-11-20T02:00:00Z"
+    },
+    "warehouse": {
+      "S-049": {
+        "status": "delayed"
+      }
+    },
+    "carrier": {
+      "S-049": {
+        "status": "normal",
+        "scanned_at": "2026-11-19T06:00:00Z"
+      }
+    },
+    "late": true
+  },
+  {
+    "id": "S-050",
+    "scenario": "warehouse_delay",
+    "now": "2026-11-20T12:00:00Z",
+    "order": {
+      "id": "S-050",
+      "eta": "2026-11-21T00:00:00Z"
+    },
+    "warehouse": {
+      "S-050": {
+        "status": "delayed"
+      }
+    },
+    "carrier": {
+      "S-050": {
+        "status": "normal",
+        "scanned_at": "2026-11-20T09:00:00Z"
+      }
+    },
+    "late": true
+  },
+  {
+    "id": "S-051",
+    "scenario": "carrier_exception",
+    "now": "2026-11-21T12:00:00Z",
+    "order": {
+      "id": "S-051",
+      "eta": "2026-11-22T06:00:00Z"
+    },
+    "warehouse": {
+      "S-051": {
+        "status": "ready"
+      }
+    },
+    "carrier": {
+      "S-051": {
+        "status": "exception",
+        "scanned_at": "2026-11-21T09:00:00Z"
+      }
+    },
+    "late": false
+  },
+  {
+    "id": "S-052",
+    "scenario": "carrier_exception",
+    "now": "2026-11-22T12:00:00Z",
+    "order": {
+      "id": "S-052",
+      "eta": "2026-11-23T07:00:00Z"
+    },
+    "warehouse": {
+      "S-052": {
+        "status": "ready"
+      }
+    },
+    "carrier": {
+      "S-052": {
+        "status": "exception",
+        "scanned_at": "2026-11-22T08:00:00Z"
+      }
+    },
+    "late": false
+  },
+  {
+    "id": "S-053",
+    "scenario": "carrier_exception",
+    "now": "2026-11-23T12:00:00Z",
+    "order": {
+      "id": "S-053",
+      "eta": "2026-11-24T08:00:00Z"
+    },
+    "warehouse": {
+      "S-053": {
+        "status": "ready"
+      }
+    },
+    "carrier": {
+      "S-053": {
+        "status": "exception",
+        "scanned_at": "2026-11-23T07:00:00Z"
+      }
+    },
+    "late": false
+  },
+  {
+    "id": "S-054",
+    "scenario": "carrier_exception",
+    "now": "2026-11-24T12:00:00Z",
+    "order": {
+      "id": "S-054",
+      "eta": "2026-11-25T06:00:00Z"
+    },
+    "warehouse": {
+      "S-054": {
+        "status": "ready"
+      }
+    },
+    "carrier": {
+      "S-054": {
+        "status": "exception",
+        "scanned_at": "2026-11-24T06:00:00Z"
+      }
+    },
+    "late": false
+  },
+  {
+    "id": "S-055",
+    "scenario": "carrier_exception",
+    "now": "2026-11-25T12:00:00Z",
+    "order": {
+      "id": "S-055",
+      "eta": "2026-11-26T07:00:00Z"
+    },
+    "warehouse": {
+      "S-055": {
+        "status": "ready"
+      }
+    },
+    "carrier": {
+      "S-055": {
+        "status": "exception",
+        "scanned_at": "2026-11-25T09:00:00Z"
+      }
+    },
+    "late": false
+  },
+  {
+    "id": "S-056",
+    "scenario": "carrier_exception",
+    "now": "2026-11-26T12:00:00Z",
+    "order": {
+      "id": "S-056",
+      "eta": "2026-11-27T08:00:00Z"
+    },
+    "warehouse": {
+      "S-056": {
+        "status": "ready"
+      }
+    },
+    "carrier": {
+      "S-056": {
+        "status": "exception",
+        "scanned_at": "2026-11-26T08:00:00Z"
+      }
+    },
+    "late": true
+  },
+  {
+    "id": "S-057",
+    "scenario": "carrier_exception",
+    "now": "2026-11-27T12:00:00Z",
+    "order": {
+      "id": "S-057",
+      "eta": "2026-11-28T06:00:00Z"
+    },
+    "warehouse": {
+      "S-057": {
+        "status": "ready"
+      }
+    },
+    "carrier": {
+      "S-057": {
+        "status": "exception",
+        "scanned_at": "2026-11-27T07:00:00Z"
+      }
+    },
+    "late": true
+  },
+  {
+    "id": "S-058",
+    "scenario": "carrier_exception",
+    "now": "2026-11-28T12:00:00Z",
+    "order": {
+      "id": "S-058",
+      "eta": "2026-11-29T07:00:00Z"
+    },
+    "warehouse": {
+      "S-058": {
+        "status": "ready"
+      }
+    },
+    "carrier": {
+      "S-058": {
+        "status": "exception",
+        "scanned_at": "2026-11-28T06:00:00Z"
+      }
+    },
+    "late": true
+  },
+  {
+    "id": "S-059",
+    "scenario": "carrier_exception",
+    "now": "2026-11-29T12:00:00Z",
+    "order": {
+      "id": "S-059",
+      "eta": "2026-11-30T08:00:00Z"
+    },
+    "warehouse": {
+      "S-059": {
+        "status": "ready"
+      }
+    },
+    "carrier": {
+      "S-059": {
+        "status": "exception",
+        "scanned_at": "2026-11-29T09:00:00Z"
+      }
+    },
+    "late": true
+  },
+  {
+    "id": "S-060",
+    "scenario": "carrier_exception",
+    "now": "2026-11-30T12:00:00Z",
+    "order": {
+      "id": "S-060",
+      "eta": "2026-12-01T06:00:00Z"
+    },
+    "warehouse": {
+      "S-060": {
+        "status": "ready"
+      }
+    },
+    "carrier": {
+      "S-060": {
+        "status": "exception",
+        "scanned_at": "2026-11-30T08:00:00Z"
+      }
+    },
+    "late": true
+  },
+  {
+    "id": "S-061",
+    "scenario": "carrier_exception",
+    "now": "2026-12-01T12:00:00Z",
+    "order": {
+      "id": "S-061",
+      "eta": "2026-12-02T07:00:00Z"
+    },
+    "warehouse": {
+      "S-061": {
+        "status": "ready"
+      }
+    },
+    "carrier": {
+      "S-061": {
+        "status": "exception",
+        "scanned_at": "2026-12-01T07:00:00Z"
+      }
+    },
+    "late": true
+  },
+  {
+    "id": "S-062",
+    "scenario": "carrier_exception",
+    "now": "2026-12-02T12:00:00Z",
+    "order": {
+      "id": "S-062",
+      "eta": "2026-12-03T08:00:00Z"
+    },
+    "warehouse": {
+      "S-062": {
+        "status": "ready"
+      }
+    },
+    "carrier": {
+      "S-062": {
+        "status": "exception",
+        "scanned_at": "2026-12-02T06:00:00Z"
+      }
+    },
+    "late": true
+  },
+  {
+    "id": "S-063",
+    "scenario": "carrier_exception",
+    "now": "2026-12-03T12:00:00Z",
+    "order": {
+      "id": "S-063",
+      "eta": "2026-12-04T06:00:00Z"
+    },
+    "warehouse": {
+      "S-063": {
+        "status": "ready"
+      }
+    },
+    "carrier": {
+      "S-063": {
+        "status": "exception",
+        "scanned_at": "2026-12-03T09:00:00Z"
+      }
+    },
+    "late": true
+  },
+  {
+    "id": "S-064",
+    "scenario": "carrier_exception",
+    "now": "2026-12-04T12:00:00Z",
+    "order": {
+      "id": "S-064",
+      "eta": "2026-12-05T07:00:00Z"
+    },
+    "warehouse": {
+      "S-064": {
+        "status": "ready"
+      }
+    },
+    "carrier": {
+      "S-064": {
+        "status": "exception",
+        "scanned_at": "2026-12-04T08:00:00Z"
+      }
+    },
+    "late": true
+  },
+  {
+    "id": "S-065",
+    "scenario": "carrier_exception",
+    "now": "2026-12-05T12:00:00Z",
+    "order": {
+      "id": "S-065",
+      "eta": "2026-12-06T08:00:00Z"
+    },
+    "warehouse": {
+      "S-065": {
+        "status": "ready"
+      }
+    },
+    "carrier": {
+      "S-065": {
+        "status": "exception",
+        "scanned_at": "2026-12-05T07:00:00Z"
+      }
+    },
+    "late": true
+  },
+  {
+    "id": "S-066",
+    "scenario": "carrier_exception",
+    "now": "2026-12-06T12:00:00Z",
+    "order": {
+      "id": "S-066",
+      "eta": "2026-12-07T06:00:00Z"
+    },
+    "warehouse": {
+      "S-066": {
+        "status": "ready"
+      }
+    },
+    "carrier": {
+      "S-066": {
+        "status": "exception",
+        "scanned_at": "2026-12-06T06:00:00Z"
+      }
+    },
+    "late": true
+  },
+  {
+    "id": "S-067",
+    "scenario": "carrier_exception",
+    "now": "2026-12-07T12:00:00Z",
+    "order": {
+      "id": "S-067",
+      "eta": "2026-12-08T07:00:00Z"
+    },
+    "warehouse": {
+      "S-067": {
+        "status": "ready"
+      }
+    },
+    "carrier": {
+      "S-067": {
+        "status": "exception",
+        "scanned_at": "2026-12-07T09:00:00Z"
+      }
+    },
+    "late": true
+  },
+  {
+    "id": "S-068",
+    "scenario": "carrier_exception",
+    "now": "2026-12-08T12:00:00Z",
+    "order": {
+      "id": "S-068",
+      "eta": "2026-12-09T08:00:00Z"
+    },
+    "warehouse": {
+      "S-068": {
+        "status": "ready"
+      }
+    },
+    "carrier": {
+      "S-068": {
+        "status": "exception",
+        "scanned_at": "2026-12-08T08:00:00Z"
+      }
+    },
+    "late": true
+  },
+  {
+    "id": "S-069",
+    "scenario": "carrier_exception",
+    "now": "2026-12-09T12:00:00Z",
+    "order": {
+      "id": "S-069",
+      "eta": "2026-12-10T06:00:00Z"
+    },
+    "warehouse": {
+      "S-069": {
+        "status": "ready"
+      }
+    },
+    "carrier": {
+      "S-069": {
+        "status": "exception",
+        "scanned_at": "2026-12-09T07:00:00Z"
+      }
+    },
+    "late": true
+  },
+  {
+    "id": "S-070",
+    "scenario": "carrier_exception",
+    "now": "2026-12-10T12:00:00Z",
+    "order": {
+      "id": "S-070",
+      "eta": "2026-12-11T07:00:00Z"
+    },
+    "warehouse": {
+      "S-070": {
+        "status": "ready"
+      }
+    },
+    "carrier": {
+      "S-070": {
+        "status": "exception",
+        "scanned_at": "2026-12-10T06:00:00Z"
+      }
+    },
+    "late": true
+  },
+  {
+    "id": "S-071",
+    "scenario": "carrier_exception",
+    "now": "2026-12-11T12:00:00Z",
+    "order": {
+      "id": "S-071",
+      "eta": "2026-12-12T08:00:00Z"
+    },
+    "warehouse": {
+      "S-071": {
+        "status": "ready"
+      }
+    },
+    "carrier": {
+      "S-071": {
+        "status": "exception",
+        "scanned_at": "2026-12-11T09:00:00Z"
+      }
+    },
+    "late": true
+  },
+  {
+    "id": "S-072",
+    "scenario": "carrier_exception",
+    "now": "2026-12-12T12:00:00Z",
+    "order": {
+      "id": "S-072",
+      "eta": "2026-12-13T06:00:00Z"
+    },
+    "warehouse": {
+      "S-072": {
+        "status": "ready"
+      }
+    },
+    "carrier": {
+      "S-072": {
+        "status": "exception",
+        "scanned_at": "2026-12-12T08:00:00Z"
+      }
+    },
+    "late": true
+  },
+  {
+    "id": "S-073",
+    "scenario": "carrier_exception",
+    "now": "2026-12-13T12:00:00Z",
+    "order": {
+      "id": "S-073",
+      "eta": "2026-12-14T07:00:00Z"
+    },
+    "warehouse": {
+      "S-073": {
+        "status": "ready"
+      }
+    },
+    "carrier": {
+      "S-073": {
+        "status": "exception",
+        "scanned_at": "2026-12-13T07:00:00Z"
+      }
+    },
+    "late": true
+  },
+  {
+    "id": "S-074",
+    "scenario": "carrier_exception",
+    "now": "2026-12-14T12:00:00Z",
+    "order": {
+      "id": "S-074",
+      "eta": "2026-12-15T08:00:00Z"
+    },
+    "warehouse": {
+      "S-074": {
+        "status": "ready"
+      }
+    },
+    "carrier": {
+      "S-074": {
+        "status": "exception",
+        "scanned_at": "2026-12-14T06:00:00Z"
+      }
+    },
+    "late": true
+  },
+  {
+    "id": "S-075",
+    "scenario": "carrier_exception",
+    "now": "2026-12-15T12:00:00Z",
+    "order": {
+      "id": "S-075",
+      "eta": "2026-12-16T06:00:00Z"
+    },
+    "warehouse": {
+      "S-075": {
+        "status": "ready"
+      }
+    },
+    "carrier": {
+      "S-075": {
+        "status": "exception",
+        "scanned_at": "2026-12-15T09:00:00Z"
+      }
+    },
+    "late": true
+  },
+  {
+    "id": "S-076",
+    "scenario": "apparently_normal",
+    "now": "2026-12-16T12:00:00Z",
+    "order": {
+      "id": "S-076",
+      "eta": "2026-12-18T12:00:00Z"
+    },
+    "warehouse": {
+      "S-076": {
+        "status": "ready"
+      }
+    },
+    "carrier": {
+      "S-076": {
+        "status": "normal",
+        "scanned_at": "2026-12-16T09:00:00Z"
+      }
+    },
+    "late": true
+  },
+  {
+    "id": "S-077",
+    "scenario": "apparently_normal",
+    "now": "2026-12-17T12:00:00Z",
+    "order": {
+      "id": "S-077",
+      "eta": "2026-12-19T13:00:00Z"
+    },
+    "warehouse": {
+      "S-077": {
+        "status": "ready"
+      }
+    },
+    "carrier": {
+      "S-077": {
+        "status": "normal",
+        "scanned_at": "2026-12-17T08:00:00Z"
+      }
+    },
+    "late": true
+  },
+  {
+    "id": "S-078",
+    "scenario": "apparently_normal",
+    "now": "2026-12-18T12:00:00Z",
+    "order": {
+      "id": "S-078",
+      "eta": "2026-12-20T14:00:00Z"
+    },
+    "warehouse": {
+      "S-078": {
+        "status": "ready"
+      }
+    },
+    "carrier": {
+      "S-078": {
+        "status": "normal",
+        "scanned_at": "2026-12-18T07:00:00Z"
+      }
+    },
+    "late": true
+  },
+  {
+    "id": "S-079",
+    "scenario": "apparently_normal",
+    "now": "2026-12-19T12:00:00Z",
+    "order": {
+      "id": "S-079",
+      "eta": "2026-12-21T12:00:00Z"
+    },
+    "warehouse": {
+      "S-079": {
+        "status": "ready"
+      }
+    },
+    "carrier": {
+      "S-079": {
+        "status": "normal",
+        "scanned_at": "2026-12-19T06:00:00Z"
+      }
+    },
+    "late": true
+  },
+  {
+    "id": "S-080",
+    "scenario": "apparently_normal",
+    "now": "2026-12-20T12:00:00Z",
+    "order": {
+      "id": "S-080",
+      "eta": "2026-12-22T13:00:00Z"
+    },
+    "warehouse": {
+      "S-080": {
+        "status": "ready"
+      }
+    },
+    "carrier": {
+      "S-080": {
+        "status": "normal",
+        "scanned_at": "2026-12-20T09:00:00Z"
+      }
+    },
+    "late": true
+  },
+  {
+    "id": "S-081",
+    "scenario": "apparently_normal",
+    "now": "2026-12-21T12:00:00Z",
+    "order": {
+      "id": "S-081",
+      "eta": "2026-12-23T14:00:00Z"
+    },
+    "warehouse": {
+      "S-081": {
+        "status": "ready"
+      }
+    },
+    "carrier": {
+      "S-081": {
+        "status": "normal",
+        "scanned_at": "2026-12-21T08:00:00Z"
+      }
+    },
+    "late": false
+  },
+  {
+    "id": "S-082",
+    "scenario": "apparently_normal",
+    "now": "2026-12-22T12:00:00Z",
+    "order": {
+      "id": "S-082",
+      "eta": "2026-12-24T12:00:00Z"
+    },
+    "warehouse": {
+      "S-082": {
+        "status": "ready"
+      }
+    },
+    "carrier": {
+      "S-082": {
+        "status": "normal",
+        "scanned_at": "2026-12-22T07:00:00Z"
+      }
+    },
+    "late": false
+  },
+  {
+    "id": "S-083",
+    "scenario": "apparently_normal",
+    "now": "2026-12-23T12:00:00Z",
+    "order": {
+      "id": "S-083",
+      "eta": "2026-12-25T13:00:00Z"
+    },
+    "warehouse": {
+      "S-083": {
+        "status": "ready"
+      }
+    },
+    "carrier": {
+      "S-083": {
+        "status": "normal",
+        "scanned_at": "2026-12-23T06:00:00Z"
+      }
+    },
+    "late": false
+  },
+  {
+    "id": "S-084",
+    "scenario": "apparently_normal",
+    "now": "2026-12-24T12:00:00Z",
+    "order": {
+      "id": "S-084",
+      "eta": "2026-12-26T14:00:00Z"
+    },
+    "warehouse": {
+      "S-084": {
+        "status": "ready"
+      }
+    },
+    "carrier": {
+      "S-084": {
+        "status": "normal",
+        "scanned_at": "2026-12-24T09:00:00Z"
+      }
+    },
+    "late": false
+  },
+  {
+    "id": "S-085",
+    "scenario": "apparently_normal",
+    "now": "2026-12-25T12:00:00Z",
+    "order": {
+      "id": "S-085",
+      "eta": "2026-12-27T12:00:00Z"
+    },
+    "warehouse": {
+      "S-085": {
+        "status": "ready"
+      }
+    },
+    "carrier": {
+      "S-085": {
+        "status": "normal",
+        "scanned_at": "2026-12-25T08:00:00Z"
+      }
+    },
+    "late": false
+  },
+  {
+    "id": "S-086",
+    "scenario": "apparently_normal",
+    "now": "2026-12-26T12:00:00Z",
+    "order": {
+      "id": "S-086",
+      "eta": "2026-12-28T13:00:00Z"
+    },
+    "warehouse": {
+      "S-086": {
+        "status": "ready"
+      }
+    },
+    "carrier": {
+      "S-086": {
+        "status": "normal",
+        "scanned_at": "2026-12-26T07:00:00Z"
+      }
+    },
+    "late": false
+  },
+  {
+    "id": "S-087",
+    "scenario": "apparently_normal",
+    "now": "2026-12-27T12:00:00Z",
+    "order": {
+      "id": "S-087",
+      "eta": "2026-12-29T14:00:00Z"
+    },
+    "warehouse": {
+      "S-087": {
+        "status": "ready"
+      }
+    },
+    "carrier": {
+      "S-087": {
+        "status": "normal",
+        "scanned_at": "2026-12-27T06:00:00Z"
+      }
+    },
+    "late": false
+  },
+  {
+    "id": "S-088",
+    "scenario": "apparently_normal",
+    "now": "2026-12-28T12:00:00Z",
+    "order": {
+      "id": "S-088",
+      "eta": "2026-12-30T12:00:00Z"
+    },
+    "warehouse": {
+      "S-088": {
+        "status": "ready"
+      }
+    },
+    "carrier": {
+      "S-088": {
+        "status": "normal",
+        "scanned_at": "2026-12-28T09:00:00Z"
+      }
+    },
+    "late": false
+  },
+  {
+    "id": "S-089",
+    "scenario": "apparently_normal",
+    "now": "2026-12-29T12:00:00Z",
+    "order": {
+      "id": "S-089",
+      "eta": "2026-12-31T13:00:00Z"
+    },
+    "warehouse": {
+      "S-089": {
+        "status": "ready"
+      }
+    },
+    "carrier": {
+      "S-089": {
+        "status": "normal",
+        "scanned_at": "2026-12-29T08:00:00Z"
+      }
+    },
+    "late": false
+  },
+  {
+    "id": "S-090",
+    "scenario": "apparently_normal",
+    "now": "2026-12-30T12:00:00Z",
+    "order": {
+      "id": "S-090",
+      "eta": "2027-01-01T14:00:00Z"
+    },
+    "warehouse": {
+      "S-090": {
+        "status": "ready"
+      }
+    },
+    "carrier": {
+      "S-090": {
+        "status": "normal",
+        "scanned_at": "2026-12-30T07:00:00Z"
+      }
+    },
+    "late": false
+  },
+  {
+    "id": "S-091",
+    "scenario": "apparently_normal",
+    "now": "2026-12-31T12:00:00Z",
+    "order": {
+      "id": "S-091",
+      "eta": "2027-01-02T12:00:00Z"
+    },
+    "warehouse": {
+      "S-091": {
+        "status": "ready"
+      }
+    },
+    "carrier": {
+      "S-091": {
+        "status": "normal",
+        "scanned_at": "2026-12-31T06:00:00Z"
+      }
+    },
+    "late": false
+  },
+  {
+    "id": "S-092",
+    "scenario": "apparently_normal",
+    "now": "2027-01-01T12:00:00Z",
+    "order": {
+      "id": "S-092",
+      "eta": "2027-01-03T13:00:00Z"
+    },
+    "warehouse": {
+      "S-092": {
+        "status": "ready"
+      }
+    },
+    "carrier": {
+      "S-092": {
+        "status": "normal",
+        "scanned_at": "2027-01-01T09:00:00Z"
+      }
+    },
+    "late": false
+  },
+  {
+    "id": "S-093",
+    "scenario": "apparently_normal",
+    "now": "2027-01-02T12:00:00Z",
+    "order": {
+      "id": "S-093",
+      "eta": "2027-01-04T14:00:00Z"
+    },
+    "warehouse": {
+      "S-093": {
+        "status": "ready"
+      }
+    },
+    "carrier": {
+      "S-093": {
+        "status": "normal",
+        "scanned_at": "2027-01-02T08:00:00Z"
+      }
+    },
+    "late": false
+  },
+  {
+    "id": "S-094",
+    "scenario": "apparently_normal",
+    "now": "2027-01-03T12:00:00Z",
+    "order": {
+      "id": "S-094",
+      "eta": "2027-01-05T12:00:00Z"
+    },
+    "warehouse": {
+      "S-094": {
+        "status": "ready"
+      }
+    },
+    "carrier": {
+      "S-094": {
+        "status": "normal",
+        "scanned_at": "2027-01-03T07:00:00Z"
+      }
+    },
+    "late": false
+  },
+  {
+    "id": "S-095",
+    "scenario": "apparently_normal",
+    "now": "2027-01-04T12:00:00Z",
+    "order": {
+      "id": "S-095",
+      "eta": "2027-01-06T13:00:00Z"
+    },
+    "warehouse": {
+      "S-095": {
+        "status": "ready"
+      }
+    },
+    "carrier": {
+      "S-095": {
+        "status": "normal",
+        "scanned_at": "2027-01-04T06:00:00Z"
+      }
+    },
+    "late": false
+  },
+  {
+    "id": "S-096",
+    "scenario": "apparently_normal",
+    "now": "2027-01-05T12:00:00Z",
+    "order": {
+      "id": "S-096",
+      "eta": "2027-01-07T14:00:00Z"
+    },
+    "warehouse": {
+      "S-096": {
+        "status": "ready"
+      }
+    },
+    "carrier": {
+      "S-096": {
+        "status": "normal",
+        "scanned_at": "2027-01-05T09:00:00Z"
+      }
+    },
+    "late": false
+  },
+  {
+    "id": "S-097",
+    "scenario": "apparently_normal",
+    "now": "2027-01-06T12:00:00Z",
+    "order": {
+      "id": "S-097",
+      "eta": "2027-01-08T12:00:00Z"
+    },
+    "warehouse": {
+      "S-097": {
+        "status": "ready"
+      }
+    },
+    "carrier": {
+      "S-097": {
+        "status": "normal",
+        "scanned_at": "2027-01-06T08:00:00Z"
+      }
+    },
+    "late": false
+  },
+  {
+    "id": "S-098",
+    "scenario": "apparently_normal",
+    "now": "2027-01-07T12:00:00Z",
+    "order": {
+      "id": "S-098",
+      "eta": "2027-01-09T13:00:00Z"
+    },
+    "warehouse": {
+      "S-098": {
+        "status": "ready"
+      }
+    },
+    "carrier": {
+      "S-098": {
+        "status": "normal",
+        "scanned_at": "2027-01-07T07:00:00Z"
+      }
+    },
+    "late": false
+  },
+  {
+    "id": "S-099",
+    "scenario": "apparently_normal",
+    "now": "2027-01-08T12:00:00Z",
+    "order": {
+      "id": "S-099",
+      "eta": "2027-01-10T14:00:00Z"
+    },
+    "warehouse": {
+      "S-099": {
+        "status": "ready"
+      }
+    },
+    "carrier": {
+      "S-099": {
+        "status": "normal",
+        "scanned_at": "2027-01-08T06:00:00Z"
+      }
+    },
+    "late": false
+  },
+  {
+    "id": "S-100",
+    "scenario": "apparently_normal",
+    "now": "2027-01-09T12:00:00Z",
+    "order": {
+      "id": "S-100",
+      "eta": "2027-01-11T12:00:00Z"
+    },
+    "warehouse": {
+      "S-100": {
+        "status": "ready"
+      }
+    },
+    "carrier": {
+      "S-100": {
+        "status": "normal",
+        "scanned_at": "2027-01-09T09:00:00Z"
+      }
+    },
+    "late": false
+  }
+]
