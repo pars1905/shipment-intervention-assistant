@@ -13,3 +13,5 @@ jobs:
       - run: python3 -m unittest discover -v
       - run: python3 evaluate.py
       - run: docker build -t shipment-assistant .
+      - run: docker run --rm shipment-assistant
+      - run: docker run --rm shipment-assistant python evaluate.py
